@@ -1,6 +1,6 @@
 # Offering
 
-A resource evaluation solution. In other words, an offering solution. It means exactly what it says. When some entity wants a resource from another entity, it must evaluate that resource with respect to its own resources. In some cases, two parties might be able to reach a consensus and trade resources only in terms of other resources, not using any money. I played a lot of mmorpgs growing up and so this project represents the wide range of knowledge I have gained from both the digital and real world trading and doing business. Without further adue.
+A resource evaluation solution. In other words, an offering solution. It means exactly what it says. When some entity wants a resource from another entity, it must evaluate that resource with respect to its own resources. In some cases, two parties might be able to reach a consensus and trade resources only in terms of other resources, not using any money. I played a lot of mmorpgs growing up and so this project represents the wide range of knowledge I have gained from both the digital and real world trading and doing business. Without further adue:
 
 Offering - is a tool for consumers to understand the value of objects around them.  Offering is not a marketplace. Offering is not a cryptocurrency. Offering has no value other than to process user data and help users generate safe smart contracts. Executing the smart contracts is in the hands of the users and caution must be taken before using this tool.
 
