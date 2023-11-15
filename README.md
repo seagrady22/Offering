@@ -26,7 +26,7 @@ Once I am able to create a NN that can accurately predict an object's price base
 
 [ Inventory ] has objects, we'l group them all as NFTs to start because its an easy concept to grasp that a wallet has NFTs that can be traded and users know nfts can be either purely digital or some representation of a real object. The owner of an inventory dictates the price of an object. I will say this as many times as I have to so here it is again: The owner of an inventory dictates the price of its object. Pictures of your dog are priceless. Your mom's jewlery cannot be bought. Your time spent as a woodworker is as you price it, whether you are perceived as the best or the worst woodworker.
 
-[ Offering ] - is a containerized database application whereby users can allow an evalautation of objects that are in their inventory whether real or digitial. Offering will be written using next gen tools like graphQL, an ORM, RUST aynsch io, more...  We will make a big distinction between real and digital objects. Transactions are going to be a multi step interaction with the system. 
+[ Offering ] - is a containerized database application whereby users can allow an evalautation of objects that are in their inventory whether real or digitial. Offering will be written using next gen tools like graphQL, an ORM, RUST aynsch io, more...  We will make a big distinction between real and digital objects. Offerings are going to be multi step interactions with a distrbuted db system. 
 
 The main algorithm for offering is something like:
 1: Provide the item desired to generate an offering (tbd could be multiple)
