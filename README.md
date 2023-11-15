@@ -30,16 +30,36 @@ To do this, I will have each of the components defined above architecture secure
 [ Inventory ] has objects, we'l group them all as NFTs to start because its an easy concept to grasp that a wallet has NFTs that can be traded and users know nfts can be either digital or a representation of a real object. The owner of an inventory dictates the price of an object. I will say this as many times as I have to so here it is again: The owner of an inventory dictates the price of an object. Pictures of your dog are priceless. Your mom's jewlery cannot be bought. Your time spent as a woodworker is as you price it, whether you are perceived as the best or the worst. 
 
 [ Offering ] - is a containerized application whereby users can allow an evalautation of objects that are in their inventory whether real or digitial. We will make a big distinction between real and digital objects. Transactions are going to be a multi part interaction with the containerized offering. The main algorithm for offering is as follows:
-1: What item is desired? -The whole point is that an item is wanted so first the user will select an item (or multiple)
+1: What item is desired? (the input to offering is an NFT(s)) -The whole point is that an item is wanted so first the user will select an item (or multiple)
 2: Return a best guess of value! Offering gives a best guess to evaluate or appraise an object in some currency based on real world data
   -but remember, this doesn't matter and is highly speculative. Value is held by the owner of the object. Offering makes no attempt to exchange the objects, this is outside of the realm of a simple tool helping users make offerings to understand the value of their objects
-3: ( Future TBD maybe not even ) Propose a smart contract to the user that provides both users a trade they want.
+3: Offering will now propose a smart contract in the form of a stubbed json object to the user that provides both users a trade they want. So we give the user data in the form of json that they will continue to fill out. 
+
+[Example]
+(1) Some inventory wants a piano from some other inventory (1)
+
+(2) Offering gives back an evaluation of 500$USD of the piano based on its current internal black box pricing model. 
+
+(3) The user is then given a stub of a smart contract that they are able to send to another user offering 500$USD for the digital certification representing the piano.
+
+(4a) The user accepts the offering - The digital certificate is swapped in buyer/seller inventories and the money is sent to the seller in the form of smart contract. In this case, offering will record the transaction data privately and only by supplying it to its NN to help better evaluate and assist users. Again, no user data needs to be stored. Its just used to track and market to consumsers, and this is not a tool for those things, but rather a solution in the opposite direction.
+
+(4b) The user declines the offering indicating a missing required field
+(4c) The user declines the offering indicating a counter offering
+(4d) The user declines the offering for any other reason for which we discontinue the transaction completely.
+
+The smart contract can now be a live representation of the real trade happening from each inventory for the piano. Managing digital certificates of real objects will always be in the hands of the user. If we allow nft's to represent real objects, there is always room for scammers. But offering also gives tons of real value to folks doing honest business that just want to record their transactions while getting good real time information to evaluate their offerings. 
 
 Couple of comments before we get out of hand with features:
 NO CHAT: items need to be clearly depicted in images with their state and condition
-The state and conditions need to be baked into the smart contracts i.e. held in json next to the item. No clear explanation of whats going on? no deal. More chat gives way to more scams. Less chat forces users to clearly spell out functionality. if we support PNG and mp4 there should be no need for any chat services to ask questions. If a user asks questions, that information needs to stay with the object/NFT. These things can grow over time to help our NN's further evaluate the price of an object.
+The state and conditions need to be baked into the smart contracts i.e. held in json in the data section of the NFT. What if there is no clear explanation of whats going on? then no deal, thats on the owner. More chat gives way to more scams imo. Less chat forces users to clearly spell out current conditions and states of the objects being transferred. if we support PNG and mp4 there should be no need for any chat services becausre we should be able to render the quality of objects based on real recorded data. If a user asks questions, that information needs to stay with the object/NFT. These object notes can grow over time to help our NN's further evaluate the price of an object. 
 
-So now we have inventory systems that are interacting with a price evaluator that will generate a stubbed offering i.e. probably just a json object that defines a smart contract. Users can not define their own smart contracts because they could have bugs. We will take on that work for the user by giving them an initial stub based on the information provided. We should also make some attempt to call out important missing information and i imagine there are several ways of doing this. 
+So rather than a chat service, a feature I am demanding here is the "Required Field" feature whereby an offer can be declined pending "Required Field" which once filled out will continue on the current offering process. (see 4b).
+
+So now we have inventory systems that are interacting with a containerized price evaluator that will generate a stubbed offering i.e. probably just a json object that defines a smart contract. Users can not define their own smart contracts because they could have bugs. We will take on that work for the user by giving them an initial stub based on the information provided. We should also make some attempt to call out important missing information and i imagine there are several ways of doing this. 
+
+The use of offering is to help those doing honest business that want to keep digital certificates of their transactions. Thus the final feature of offering is a tool to help evaluate a users taxes at the end of the year. Things can get a little hairy when doing resource trading, but its really helpful when doing a lot of cash business to be able to keep a record of these sorts of trades and be able to declare them at the end of the tax year. And again, this is up to the user on whether they want to actually accept a digital smart contract. 
+
 
 
 
