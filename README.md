@@ -18,7 +18,7 @@ Smart contracts allow us to be able to manage money like this in an elegant way.
 Scrapers - To begin my work, I want to focus on pulling data from offerUp. I love that the name is so close to offering and it has helped me grasp the concept of what offering truly is or could be.
 That being said, offerup can and will be replaced with (m)any service provider that can query a location for product pictures and prices. It would be impossible to evaluate the price of an object based on a single source of data.
 
-Architecture:
+Use Cases/Architecture:
 
 To begin, I want to collect a lot of information on objects available for purchase on offerup. I am only concerned with objects already owned by others i.e. P2P.  I am not accounting for vendors that are selling new objects, though this functionality could be added with ease.
 The information I am collecting will be used to create neural networks that can use both images and historical listing data to price objects.
