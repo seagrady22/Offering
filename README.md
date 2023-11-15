@@ -29,15 +29,23 @@ Once I am able to create a NN that can accurately predict an object's price base
 [ Offering ] - is a containerized database application whereby users can allow an evalautation of objects that are in their inventory whether real or digitial. Offering will be written using next gen tools like graphQL, an ORM, RUST aynsch io, more...  We will make a big distinction between real and digital objects. Offerings are going to be multi step interactions with a distrbuted db system. 
 
 The main algorithm for offering is something like:
+
 1: Provide the item desired to generate an offering (tbd could be multiple)
+
 2: Offering returns a best guess of value.. i.e. Offering gives a best guess to evaluate or appraise an object in some currency based on real world data
+
   -Remember, this doesn't matter and is highly speculative. Value is held by the owner of the object. Offering makes no attempt to exchange the objects, this is outside of the realm of a simple tool helping users make offerings to understand the value of their objects
-3: Offering then proposes a smart contract in the form of a stubbed json object to the user that provides both users a trade they want. So we give the user data in the form of json that they will continue to fill out. 
+  
+3: Offering then proposes a smart contract in the form of a stubbed json object to the user that provides both users a trade they want. So we give the user data in the form of json that they will continue to fill out.
+
 4: Offering executes the smart contract on behalf of the wallets, exchanging the goods and growing a number of research models. The users in good faith can repeat the steps if something fails and trade the goods back. Users need to be very cautious when attaching any kind of digital currency to their smart contracts. We personally only recommend doing local business and doing cash trades for digital assets. This describes the transactions as best as possible for transparency/tax purposes and then leaves the users and their local governments to their business.
 
 A user can decline because the trade is not clear enough, which keeps the deal open but continues to build out the smart contract in more detail. (missing field decline MFD)
+
 A user can decline because the trade is not sufficient enough in value and purpose counter offers. (counter offering CO)
+
 A user can decline for any reason they want. (NEHNEH)
+
 
 [Example]
 (1) Some inventory wants a piano from some other inventory (1)
